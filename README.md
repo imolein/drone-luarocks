@@ -2,6 +2,8 @@
 
 This is a [Drone](https://drone.io) plugin for uploading a Lua module as a self-contained package, called a rock, to [LuaRocks](https://luarocks.org).
 
+**You have to clone the git and build the docker container manually. I'll upload it to Docker Hub in the next days**
+
 ## Docs
 
 ### Config
