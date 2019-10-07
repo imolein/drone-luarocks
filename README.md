@@ -2,8 +2,6 @@
 
 This is a [Drone](https://drone.io) plugin for uploading a Lua module as a self-contained package, called a rock, to [LuaRocks](https://luarocks.org).
 
-**You have to clone the git and build the docker container manually. I'll upload it to Docker Hub in the next days**
-
 ## Docs
 
 ### Config
@@ -31,7 +29,7 @@ name: default
 
 steps:
 - name: upload
-  image: imo/drone-luarocks:0.1
+  image: imolein/drone-luarocks
   settings:
     rockspec: test_module-0.1-0.rockspec
     apikey:
